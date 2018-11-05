@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS A_One</title>
+</head>
+<style type="text/css">
+    #one, .two {
+        text-align: center;
+        color: brown;
+        width: 50%;
+    }
+
+    #two, #three {
+        background: aqua;
+        font-style: italic;
+        font-family: "American Typewriter";
+        padding: 20px;
+        width: 65%;
+    }
+</style>
+
+<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<body>
+<div >
+    <h1 style="text-align: center; color: brown; width: 40%">Inline CSS</h1>
+    <p style="background-color: blueviolet; font-family: 'Tahoma'; padding: 20px; width: 45%;">This first section shows the use of inline css to manipulate HTML</p>
+    <p style="background-color: beige; font-family: 'Times New Roman'; padding: 20px; width: 50%;"> The Idea Is simple basic and can be a quick solution to simple styling </p>
+    <p style="background-color: aliceblue; font-family: 'American Typewriter'; font-style: italic; padding: 20px; width: 55%;">This is however a tedious process and can quickly get out of hand</p>
+</div>
+
+<div class="one">
+    <h1 id="one">Internal CSS</h1>
+    <p id="two">This second bit displays how CSS can be created in a file and still maintain the same perfomance</p>
+    <p id="three">The main idea here is to use CSS within that particular page alone</p>
+</div>
+
+<div class="one">
+    <h1 class="two">External CSS</h1>
+    <p class="three"> This is the third bit displaying external css</p>
+    <p class="three">Basically this just shows how css cab be placed in an external file to be able to manipulate HTML</p>
+</div>
+
+</body>
+</html>
