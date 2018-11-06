@@ -1,0 +1,49 @@
+.container {
+    padding-left: 120px;
+}
+
+.body {
+    border: 1px solid #ffe1bc;
+    width: 80%;
+    padding: 20px;
+}
+
+.slider {
+    height: 450px;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.4);
+    height: 300px;
+    padding: 15% 20px 20px;
+    text-align: center;
+    transition: 0.7s;
+    color: white;
+    text-transform: capitalize;
+    text-decoration-color: #ffe1bc;
+    font-family: serif;
+}
+
+.overlay:hover {
+    background: rgba(10,0,0,0.7);
+    height: 300px;
+    padding: 15% 20px 20px;
+    text-align: center;
+    transition: 0.7s;
+    text-transform: uppercase;
+    color: #ffe1bc;
+    text-decoration: underline overline;
+    font-family: Tahoma, serif;
+}
+
+/*body*/
+
+.three {
+    background: indianred;
+    font-style: italic;
+    font-family: "American Typewriter", serif;
+    padding: 20px;
+
+}
