@@ -39,8 +39,12 @@
 }
 
 /*body*/
+.one {
+    font-size: 15px;
+    text-align: center;
+}
 
-.three {
+.one, .three {
     background: indianred;
     font-style: italic;
     font-family: "American Typewriter", serif;
