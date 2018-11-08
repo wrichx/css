@@ -1,0 +1,126 @@
+.container {
+    padding-left: 120px;
+}
+
+.body {
+    border: 1px solid #ffe1bc;
+    width: 80%;
+    padding: 20px;
+}
+
+.slider {
+    height: 450px;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.4);
+    height: 300px;
+    padding: 15% 20px 20px;
+    text-align: center;
+    transition: 0.7s;
+    color: white;
+    text-transform: capitalize;
+    text-decoration-color: #ffe1bc;
+    font-family: serif;
+}
+
+.overlay:hover {
+    background: rgba(10,0,0,0.7);
+    height: 300px;
+    padding: 15% 20px 20px;
+    text-align: center;
+    transition: 0.7s;
+    text-transform: uppercase;
+    color: #ffe1bc;
+    text-decoration: underline overline;
+    font-family: Tahoma, serif;
+}
+
+/*body*/
+.one {
+    font-size: 15px;
+    text-align: center;
+}
+
+.one, .three {
+    background: indianred;
+    font-style: italic;
+    font-family: "American Typewriter", serif;
+    padding: 20px;
+
+}
+
+/*Nav Bar*/
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+li {
+    display: inline;
+    background-color: #f7ac3c;
+    padding: 10px 20px;
+}
+
+li a, .dropbtn {
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropbtn {
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+li:hover, .dropdown:hover .dropbtn {
+    background-color: #f74e3c;
+}
+
+li.dropdown {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: -20px;
+    background-color: #f7aC3c;
+    min-width: 160px;
+   
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 10px 17px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f74e3c}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f74e3c;
+}
+
+.active {
+    background-color: #4CAF50;
+}
